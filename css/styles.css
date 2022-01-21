@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+#title{
+    background-color: #ff4c68;
+    color: azure;
+
+    height: 768px;
+
+}
+h1{
+    font-size: 3.5rem;
+    font-family: "Montserrat" ,Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: bolder;
+    line-height: 1.5;
+    margin-left: .75rem;
+}
+
+.container-fluid{
+    padding : 3% 10%;
+}
+a{
+    color: azure;
+}
+#dogo-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+
+
+
+}
+.navbar-toggler-icon{
+    color: azure;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.nav-item{
+    padding: 0 0 18px;
+}
+.navbar-link{
+    font-size: 1.2rem;
+    font-family : "Montserrat";
+}
+
+.download-btn{
+    margin : 5% 3% 5%;
+}
+
+#features{
+    font-family: "Montserrat";
+    padding: 7% 10%;
+    background-color: azure;
+    position: relative;
+    z-index: 1;
+    
+
+}
+.width-setter{
+    height: 100%;
+}
+.feature-box{
+    text-align: center;
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    color: azure;
+    padding : 5% 7%;
+}
+
+.carousel-item{
+    
+    padding : 7% 17%;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+}
+.testimonial-img{
+    width : 10% ;
+    border-radius: 100%;
+    padding: 1% 1%;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 10px; 
+}
+
+.press-logo{
+    width: 13%;
+    transition: transform .2s ;
+    margin: 20px 20px 50px;
+}
+
+.press-logo:hover{
+    transform: scale(1.2);
+}
+
+#pricing{
+    padding : 7% 17%;
+}
+
+
+.card{
+    text-align : center;
+    padding: 0;
+    margin: 5px 5px;
+    
+}
+.card-title{
+    font-size: 3.2vw;
+}
+
+@media(max-width : 1028px) {
+    #dogo-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+        height: auto;
+    }
+    .nav-item{
+        text-align: right;
+    }
+}
+
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 10%;
+    color: azure;
+    font-family: "Montserrat";
+}
+
+#footer{
+    padding : 3% 10%;
+    text-align : center ;
+    color: black;
+    font-family: "Montserrat";
+    font-size: smaller;
+
+}
+.footer-logo{
+    margin : 0 3px;
+}
